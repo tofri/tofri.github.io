@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="https://analytics-eu.clickdimensions.com/forms/h/aw5tFdzx7VEydMCyjSLTOh" method="post" target="_blank">
+<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="http://analytics-eu.clickdimensions.com/forms/h/aw5tFdzx7VEydMCyjSLTOh" method="post" target="_blank">
 
 <input type="hidden" name="txtTopic" id="txtTopic" value="Native Test website for PRO" />
 First Name: <input type="text" name="hdm_firstname" id="hdm_firstname"/><br />
@@ -16,15 +16,14 @@ Email: <input type="email" name="hdm_email" id="hdm_email" /><br />
 <input type="submit" value="Submit">
 </form> 
 
-
 <script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
-  
-<script type="text/javascript">  
-  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');  
-  cdAnalytics.setDomain('heidelberg.com');  
-  cdAnalytics.setAccountKey('aV5OW7JsR1UZtJpCt54Y0Q');  
-  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));  
-  cdAnalytics.trackPage();
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('aV5OW7JsR1UZtJpCt54Y0Q'); 
+  cdAnalytics.setDomain('heidelberg.com'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
 </script>
 
 </body>

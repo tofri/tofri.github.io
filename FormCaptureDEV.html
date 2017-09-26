@@ -6,12 +6,14 @@
 </head>
 
 <body>
-<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="http://analytics-eu.clickdimensions.com/forms/h/aE9IPTGsivUeQ9ZMwa0byg" method="post" target="_blank">
+<form id="DEV Form Capture Test" name="FormCaptureTest" action="https://analytics-eu.clickdimensions.com/forms/h/a0hoYPgaqCkaN5RB29P9Fy" method="post" target="_blank">
 
 <input type="hidden" name="txtTopic" id="txtTopic" value="Contact Us - test website" />
-Email: <input type="email" name="input6" id="input6" /><br />
-First Name: <input type="text" name="input3" id="input3"/><br />
-Last Name: <input type="text" name="input4" id="input4"/><br />
+First Name: <input type="text" name="hdm_firstname" id="hdm_firstname"/><br />
+Last Name: <input type="text" name="hdm_lastname" id="hdm_lastname"/><br />
+Email: <input type="email" name="hdm_email" id="hdm_email" /><br />
+Company: <input type="text" name="hdm_company" id="hdm_company"/><br />
+City: <input type="text" name="hdm_city" id="hdm_city"/><br />
 
 <input type="submit" value="Submit">
 </form> 
@@ -27,5 +29,9 @@ Last Name: <input type="text" name="input4" id="input4"/><br />
   cdAnalytics.trackPage(); 
 </script> 
 
+<script type="text/javascript"> 
+  var cdCampaignKey = 'CMP-01485-C5C8P7'; 
+</script> 
+  
 </body>
 </html>

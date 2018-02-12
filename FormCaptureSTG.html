@@ -6,14 +6,12 @@
 </head>
 
 <body>
-<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="http://analytics-eu.clickdimensions.com/forms/h/aNrKHoONYk9AxjIuZhVg" method="post">
+<form id="NewFormCaptureTest" name="NewFormCaptureTest" action="https://analytics-eu.clickdimensions.com/forms/h/aktzE59s82Uer4Mglqj0We" method="post">
 
 <input type="hidden" name="txtTopic" id="txtTopic" value="Native Test website for PRO" />
-First Name: <input type="text" name="hdm_firstname" id="hdm_firstname"/><br />
-Last Name: <input type="text" name="hdm_last_name" id="hdm_last_name"/><br />
-Company: <input type="text" name="hdm_company" id="hdm_company" /><br />
-Address: <input type="text" name="hdm_street_number" id="hdm_street_number" /><br />
-Email: <input type="email" name="hdm_email" id="hdm_email" /><br />
+First Name: <input type="text" name="hdm_firstname" id="firstname"/><br />
+Last Name: <input type="text" name="hdm_last_name" id="lastname"/><br />
+Email: <input type="email" name="hdm_email" id="email" /><br />
 <input type="submit" value="Submit">
 </form> 
 
@@ -22,7 +20,7 @@ Email: <input type="email" name="hdm_email" id="hdm_email" /><br />
   
 <script type="text/javascript">  
   var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com');  
-  cdAnalytics.setDomain('github.io');  
+  cdAnalytics.setDomain('heidelberg.com');  
   cdAnalytics.setAccountKey('aPd7jN5s1S0SRrWgWBdMgA');  
   cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));  
   cdAnalytics.trackPage();

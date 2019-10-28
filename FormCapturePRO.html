@@ -8,11 +8,22 @@
 <body>
 <form id="NewFormCaptureTest" name="NewFormCaptureTest" action="https://analytics-eu.clickdimensions.com/forms/h/aUPHr8Y5ePUC5Z0PUQ63ig" method="post">
 
-First Name: <input type="text" name="firstname" id="firstname"/><br />
-Last Name: <input type="text" name="lastname" id="lastname"/><br />
-Company: <input type="text" name="UNI_Company" id="UNI_Company"/><br />
-City: <input type="text" name="UNI_City" id="UNI_City"/><br />
-Email: <input type="email" name="UNI_TEST_Email" id="UNI_TEST_Email" /><br />
+<select id="hdm_salutation" name="hdm_salutation">
+  <option selected="" value="">Bitte auswählen</option>
+  <option label="Frau" value="Frau">Frau</option>
+  <option label="Herr" value="Herr">Herr</option>
+  <option label="Sig." value="Sig.">Sig.</option>
+</select><br />
+First Name: <input type="text" name="firstname" id="hdm_firstname"/><br />
+Last Name: <input type="text" name="lastname" id="hdm_last_name"/><br />
+Email: <input type="email" name="email" id="hdm_email" /><br />
+Country: 
+<select id="UNI_Country" name="UNI_Country">
+  <option selected="" value="">Land auswählen</option>
+  <option label="Dänemark" value="option1414">Dänemark</option>
+  <option label="Deutschland" value="option704">Deutschland</option>
+  <option label="USA" value="option1955">USA</option>
+</select><br />
 <input type="submit" value="Submit">
 </form> 
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Form Capture</title>
+</head>
+
+<body>
+<form id="DEV Form Capture Test" name="FormCaptureTest" action="https://analytics-eu.clickdimensions.com/forms/h/aZfCgqJxDcUaZrHoUO7Rpj" method="post" target="_blank">
+
+First Name: <input type="text" name="hdm_firstname" id="hdm_firstname"/><br />
+Last Name: <input type="text" name="hdm_lastname" id="hdm_lastname"/><br />
+Email: <input type="email" name="hdm_email" id="hdm_email" /><br /><br />
+
+<select id="hdm_investmenttimeline" name="hdm_investmenttimeline">
+  <option selected="" value="">Bitte auswählen</option>
+  <option label="1 - 6" value="100000000">1 - 6</option>
+  <option label="7 - 12" value="100000001">7 - 12</option>
+  <option label="13 - 24" value="100000002">13 - 24</option>
+  <option label="No decision yet" value="100000003">No decision yet</option>
+</select><br />
+
+Company: <input type="text" name="hdm_company" id="hdm_company"/><br />
+City: <input type="text" name="hdm_city" id="hdm_city"/><br />
+
+<select id="hdm_companysize" name="hdm_companysize">
+  <option selected="" value="">Bitte auswählen</option>
+  <option label="1 - 25" value="100000000">1 - 25</option>
+  <option label="26 - 50" value="100000001">26 - 50</option>
+  <option label="51 - 100" value="100000002">51 - 100</option>
+  <option label="101 - 250" value="100000003">101 - 250</option>
+  <option label="250+" value="100000004">250+</option>
+</select><br />
+
+Country: 
+<select id="hdm_country" name="hdm_country">
+  <option selected="" value="">Land auswählen</option>
+  <option label="Dänemark" value="option1414">Dänemark</option>
+  <option label="Deutschland" value="option704">Deutschland</option>
+  <option label="USA" value="option1955">USA</option>
+</select><br />
+
+
+
+ <input type="checkbox" id="hdm_consent" name="hdm_consent"> <label for="Zustimmung">Zustimmung</label><br />
+
+<input type="submit" value="Submit">
+</form> 
+
+
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdScore = 500;
+</script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('aX47tOK5WxE2DQ3ybmK5w'); 
+  cdAnalytics.setDomain('heidelberg.com'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+
+ 
+</body>
+</html>

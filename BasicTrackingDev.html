@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Basic Tracking 50</title>
+</head>
+
+<body>
+<form id="DEV Basic Tracking" name="Basic" target="_blank">
+
+First Name: <input type="text" name="hdm_firstname" id="hdm_firstname"/><br />
+Last Name: <input type="text" name="hdm_lastname" id="hdm_lastname"/><br />
+Email: <input type="email" name="hdm_email" id="hdm_email" /><br /><br />
+Company: <input type="text" name="hdm_company" id="hdm_company"/><br />
+City: <input type="text" name="hdm_city" id="hdm_city"/><br />
+
+</form> 
+
+<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
+<script type="text/javascript"> 
+  var cdScore = 50;
+</script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('aX47tOK5WxE2DQ3ybmK5w'); 
+  cdAnalytics.setDomain('heidelberg.com'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
+</script> 
+</body>
+</html>
